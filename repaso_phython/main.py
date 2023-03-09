@@ -15,7 +15,6 @@ print(numero3)
 numero4 = 5.0
 print(numero4)
 
-
 # booleanos
 
 esColombiano: bool = True
@@ -73,5 +72,23 @@ print("Menor que:", valor1 < valor2)   # Menor que
 print("Mayor igual que:", valor1 >= valor2) # Mayor igual que
 print("Menor igual que:", valor1 <= valor2) # Menor igual que
 print("No igual:", valor1 != valor2) # No igual
+
+# Funciones
+"""
+las funciones son un bloque de codigo 
+que solo se ejecutan cuando se llaman.
+"""
+
+def mi_funcion():
+    print("¡Feliz dia!")
+
+
+mi_funcion()  # Invocar la funcion
+
+def mensaje(nombre, apellido):
+    print("¡Feliz dia!"+" "+nombre+" "+apellido)
+
+
+mensaje("Andrea","Rendon")
 
 
